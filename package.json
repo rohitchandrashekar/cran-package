@@ -1,0 +1,39 @@
+{
+  "name": "mercanis",
+  "version": "1.0.0",
+  "description": "A Simple search for packages in R",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "unit-tests": "mocha tests/unitTests/**/*.js",
+    "integration-tests": "mocha --timeout 40000 --exit tests/integration/integration.js",
+    "mocha": "npm run mocha",
+    "dev": "nodemon server.js"
+  },
+  "author": "Rohit Chandrashekar",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "sinon": "^9.2.1",
+    "node-mocks-http": "^1.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debian-control": "^1.0.0",
+    "event-stream": "^4.0.1",
+    "express": "^4.17.1",
+    "flexsearch": "^0.6.32",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "node-fetch": "^2.6.1",
+    "targz": "^1.0.1",
+    "validatorjs": "^3.20.0",
+    "winston": "^3.3.3"
+  }
+}

@@ -1,0 +1,13 @@
+0b0b6d2e5f930d3131926ba08bedc4e4 *DESCRIPTION
+7c3c58d0afa5b51e9f8987f9f78813fe *NAMESPACE
+7f024a301ffa9744dd78ad41ecb4b209 *R/AATtools.R
+2a2b9ac29a82e32de2d7edf09283c694 *R/data.R
+d277d5b4d66c828f9209ed8741fe69cc *data/erotica.RData
+59ca53404702a7243a3e47e1de7fc234 *man/Algorithms.Rd
+d5fd5c373a5ba204a5051dc3217d968a *man/Preprocessing.Rd
+527111c2f48f32c4ac78f96363bbed5a *man/SpearmanBrown.Rd
+d121b75ecb72af74486ae01108b9722d *man/aat_bootstrap.Rd
+9e30f96b35fea497701df8225bef36fd *man/aat_compute.Rd
+062aa408d714a53fcc75ab085e4cafe3 *man/aat_splithalf.Rd
+ad506a57231526cddbec700008000055 *man/erotica.Rd
+9ee29773f1479c5b8e1303adab2b3348 *man/q_reliability.Rd
